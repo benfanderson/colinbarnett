@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+     font-family: 'Roboto', sans-serif;
+     width: 100%;
+}
+
+.hero {
+    background-image: url(images/cool2.jpg);
+    background-size: 33em;
+    height: 16em;
+    background-position-x: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9em;
+    width: 100%;
+    margin-bottom: 0.1em;
+}
+
+.subhead{
+    font-size: 1em;
+    margin-bottom: 0.1em;
+}
+
+.byline{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.text-container{
+    margin: 0 0.8em;
+}
+
+.text-container p, .picture, .quote, .parallax {
+    margin-bottom: 0.5em;
+}
+
+.picture img {
+    width: 100%;
+}
+
+figcaption{
+    font-size: 0.8em;
+}
+
+.quote {
+    font-size: 1.5em;
+    border-left: 0.3em solid blue;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0.5em;
+    margin: 1.75em;
+}
+
+#quote-container{
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid rgb(132, 172, 223);;
+    
+}
+
+#quote-container h2 {
+    background-color: blue;
+    color: white;
+    padding-left: 0.2em;
+}
+
+#quote-container h3 {
+    text-decoration: underline;
+    background-color: rgb(132, 172, 223);
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+    font-weight: normal;
+}
+
+#quote-container p {
+    padding: 0 0.2em 0.2em 0.2em;
+}
+
+.parallax { 
+    position: relative;
+    /* Set a specific height */
+    
+    height: 15em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: -2em;
+    background-repeat: no-repeat;
+    background-size: 54em;
+}
+
+.parallax figcaption {
+    color: white;
+    padding: 0 1em;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 16em;
+}
+
+.troy {
+    /* The image used */
+    background-image: url("images/buswell.jpg");
+}
+
+.quay 
+{/* The image used */
+    background-image: url("images/quay.jpg");
+}
+
+.queen 
+{/* The image used */
+    background-image: url("images/queen.jpg");
+    background-position: -21em;
+}
+
+.beach 
+{/* The image used */
+    background-image: url("images/beach.jpg");
+
+    background-position: center;
+}
+
+/*View for tablets*/
+@media (min-width:479px) {
+    .hero {
+        background-size: 66em;
+        height: 32em;
+        background-position-x: center;
+    }
+    h1 {
+        font-size: 4.9em;
+        margin-bottom: 0;
+    }
+
+    .subhead{
+        font-size: 2.2em;
+    }
+    
+    .byline{
+        font-size: 1.8em;
+    }
+
+    #quote-container{
+        float: right;
+        width: 50%;
+        margin-left: 0.5em;
+    }
+
+    .parallax {
+        height: 66em;
+        background-size: 172em;
+        background-position: -11em;
+    }
+
+    .parallax figcaption {
+        top: 80em;
+    }
+
+    .queen {
+    background-position: -58em;
+    background-size: 130em;
+    }
+
+    .beach {
+    background-position: -45em;
+    background-size: 132em;
+    }
+
+}
+
+/*View for desktop*/
+@media (min-width:1000px) {
+    .container{
+        width: 100%;
+    }
+
+    .text-container{
+        width: 70%;
+        margin: auto;
+    }
+
+    .hero{
+        background-size: 84em;
+        background-position-x: center;
+        background-position-y: -4em;
+        height: 36em;
+    }
+
+    h2{
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+
+    #quote-container h2{
+        margin-bottom: 0;
+    }
+
+    .parallax {
+        height: 66em;
+        background-size: 127em;
+        background-position: -11em;
+    }
+
+    .queen{   
+        background-position: -30em;
+    background-size: 119em;
+    }
+
+    .beach {
+        background-position-y: -4em;
+        background-size: 132em;
+    }
+
+}
