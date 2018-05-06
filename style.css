@@ -87,8 +87,8 @@ figcaption{
     position: relative;
     height: 15em; 
     background-attachment: scroll;
-    background-position: -2em;
-    background-size: 23em;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax figcaption {
@@ -148,23 +148,13 @@ figcaption{
     }
 
     .parallax {
-        /* height: 66em;
-        background-size: 172em;
-        background-position: -11em; */
+        height: 44em;
+        background-position: -5em;
+        background-size: 67em;
     }
 
     .parallax figcaption {
-        top: 80em;
-    }
-
-    .queen {
-    background-position: -58em;
-    background-size: 130em;
-    }
-
-    .beach {
-    background-position: -45em;
-    background-size: 132em;
+        top: 53em;
     }
 
 }
@@ -198,7 +188,7 @@ figcaption{
 
     .parallax {
         position: relative;
-    /* Set a specific height */
+        /* Set a specific height */
         height: 66em;
 
          /* Create the parallax scrolling effect */
@@ -208,14 +198,16 @@ figcaption{
         background-repeat: no-repeat;
     }
 
+    .parallax figcaption {
+        top: 80em;
+    }
+
     .queen{   
         background-position: -30em;
-    background-size: 119em;
     }
 
     .beach {
         background-position-y: -4em;
-        background-size: 132em;
     }
 
 }
