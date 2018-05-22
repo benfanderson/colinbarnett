@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <script src="accordion.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-    $( function() {
-        $( "#accordion" ).accordion({
-        });
-    } );
-    </script> -->
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -70,31 +63,33 @@
                     <button>Show</button>
                 </div>
             </aside>
-            <!-- <div id="quote-container">
-                <h2>Colin Barnett on . . .</h2>
-                <div id="accordion">
-                    <h3>His weight loss</h3>
-                    <div>
-                        <p>At one stage I went into the party room and said ‘I just want to make it clear that I do not have cancer, I have not had a heart attack, I haven’t had a stroke and I haven’t got AIDS’.</p>
-                    </div>
-                    <h3>Troy Buswell</h3>
-                    <div>
-                        <p>He was clearly one of the most talented politicians I had ever seen. But he was flawed. People think that because he had an affair with Adele Carles that’s why I sacked him.</p>
-                    </div>
-                    <h3>Losing office</h3>
-                    <div>
-                        <p>Losing an election is incredibly humiliating because you are such a public figure. I think the saving grace for me, to some extent, was that I was 67, or heading that way.</p>
-                    </div>
-                    <h3>The Mining Boom</h3>
-                    <div>
-                        <p>If I had perfect hindsight at the time we probably didn’t need to go as hard on public spending if I knew there was going to be a surge in the resources industry.</p>
-                    </div>
-                    <h3>Mark McGowan</h3>
-                    <div>
-                         <p>I wrote a little note to McGowan and my advice to him was you have to make decisions and back your own judgment. Back yourself in.</p> 
-                    </div>
+            <aside id="accordion-container">
+                    <h2>Colin Barnett on . . . </h2>
+                <button class="accordion">His weight loss</button>
+                <div class="panel">
+                    <p>At one stage I went into the party room and said ‘I just want to make it clear that I do not have cancer, I have not had a heart attack, I haven’t had a stroke and I haven’t got AIDS’.</p>
                 </div>
-            </div> -->
+
+                <button class="accordion">Troy Buswell</button>
+                <div class="panel">
+                    <p>was clearly one of the most talented politicians I had ever seen. But he was flawed. People think that because he had an affair with Adele Carles that’s why I sacked him.</p>
+                </div>
+
+                <button class="accordion">Losing office</button>
+                <div class="panel">
+                    <p>Losing an election is incredibly humiliating because you are such a public figure. I think the saving grace for me, to some extent, was that I was 67, or heading that way.</p>
+                </div>
+
+                <button class="accordion">The Mining Boom</button>
+                <div class="panel">
+                    <p>If I had perfect hindsight at the time we probably didn’t need to go as hard on public spending if I knew there was going to be a surge in the resources industry.</p>
+                </div>
+
+                <button class="accordion">Mark McGowan</button>
+                <div class="panel">
+                    <p>I wrote a little note to McGowan and my advice to him was you have to make decisions and back your own judgment. Back yourself in.</p>
+                </div>
+            </aside>
             <p>This at-times breathtaking self-assuredness is a recurring theme in the two-and-a-half hours he spoke to&nbsp;<em>WestBusiness Insider&nbsp;</em>in his first major interview since losing the State election in March.</p>
             <p>Barnett is utterly certain that he was the only person capable of stitching together a deal as politically and economically complicated as the renegotiation of iron ore royalties with BHP and Rio Tinto or gas contracts with the North West Shelf.</p>
             <p>&ldquo;I don&rsquo;t think anyone else could have done it,&rdquo; he says, matter-of-factly. &ldquo;In my own mind I had a good track record going way back to the Collie power station, which had been argued about for 12 years, was the first thing I cracked as minister in the 1990s. And then the Goldfields gas pipeline and even more recently renegotiating iron ore royalties.</p>

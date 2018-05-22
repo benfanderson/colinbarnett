@@ -22,4 +22,5 @@ function toggleAccordion(event) {
     }
 }
 
+
 window.onload = init;
