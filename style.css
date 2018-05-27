@@ -65,7 +65,8 @@ figcaption{
 }
 
 #accordion-container h2 {
-    padding: 0.5em 0.5em 0 0.5em;
+    padding: 0.3em 0.5em;
+    background-color: #ccc;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -93,6 +94,8 @@ figcaption{
     background-color: white;
     display: none;
     overflow: hidden;
+    border: solid #eee;
+    border-width: 0 0.7px 0.7px 0.7px;
 }
 
 .parallax { 
