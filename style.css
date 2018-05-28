@@ -172,6 +172,10 @@ figcaption{
         top: 53em;
     }
 
+    .queen{   
+        background-position: -19em;
+    }
+
 }
 
 /*View for desktop*/
@@ -186,15 +190,25 @@ figcaption{
     }
 
     .hero{
-        background-size: 84em;
+        background-size: 110em;
         background-position-x: center;
-        background-position-y: -4em;
-        height: 36em;
+        background-position-y: -9em;
+        height: 50em;
+        margin-bottom: 1em;
     }
 
     h2{
         font-size: 2em;
         margin-bottom: 0.3em;
+    }
+
+    .picture{
+        margin: 1.5em 0;
+    }
+
+    .picture figcaption{
+        font-size: 1em;
+        margin-top: 0.6em;
     }
 
 
@@ -214,16 +228,18 @@ figcaption{
          /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-size: 127em;
-        background-position: -11em;
+        background-position: 0em;
         background-repeat: no-repeat;
+        margin-bottom: 1.5em;
     }
 
     .parallax figcaption {
-        top: 80em;
+        top: 64em;
+        font-size: 1em;
     }
 
-    .queen{   
-        background-position: -30em;
+    .queen {   
+        background-position: -7em;
     }
 
     .beach {
