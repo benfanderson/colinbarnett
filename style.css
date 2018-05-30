@@ -225,6 +225,11 @@ figcaption{
         margin-top: 0.6em;
     }
 
+    .quote {
+        font-size: 2.5em;
+        margin: 1em;
+    }
+
 
     #accordion-container{
         padding: 0.1em 0.1em 0 0.1em;
@@ -244,7 +249,9 @@ figcaption{
         background-size: 127em;
         background-position: 0em;
         background-repeat: no-repeat;
-        margin-bottom: 1.5em;
+        /* margin-bottom: 1.5em; */
+        margin: 1.5em auto;
+        width: 70%;
     }
 
     .parallax figcaption {
@@ -252,12 +259,25 @@ figcaption{
         font-size: 1em;
     }
 
-    .queen {   
-        background-position: -7em;
+    .troy{
+        background-size: 156em;
+        background-position: -1em;
+    }
+
+    .quay{
+        background-size: 171em;
+        background-position: 0em;
+    }
+
+    .queen {
+        background-size: 157em; 
+        background-position: -45em;
     }
 
     .beach {
-        background-position-y: -4em;
+        background-size: 200em;
+        background-position: -20em;
+        background-position-y: -15em;
     }
 
 }
