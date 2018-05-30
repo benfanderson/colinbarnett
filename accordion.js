@@ -1,23 +1,19 @@
 function init() {
-    const accordion = document.getElementsByClassName("accordion");
-    for (var i = 0; i < accordion.length; i++) {
-        // Sets accordion quotes as shut when page loads
-        accordion[i].nextElementSibling.style.display = "none";
-        //Attaches function to button
-        accordion[i].onclick = toggleAccordion;
-    }
-}
+    var acc = document.getElementsByClassName("accordion");
+var i;
 
-function toggleAccordion(event) {
-    const display = event.target.nextElementSibling;
-    // Toggles accordion quote open when button is clicked
-    if (display.style.display == "none") {
-        display.style.display = "block";
-    // Toggles accordion quote shut when button is clicked
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
     } else {
-        display.style.display = "none";
-    }
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
-
+    
+}
 
 window.onload = init;
