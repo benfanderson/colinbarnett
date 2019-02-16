@@ -18,6 +18,13 @@
     margin-bottom: 0.5em;
 }
 
+.logo{
+    position: absolute;
+    top: 1%;
+    right: 30%;
+    width: 0.001%;
+  }
+
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.9em;
@@ -150,6 +157,16 @@ figcaption{
     background-position: center;
 }
 
+footer{
+    margin: 0.5em 0.8em;
+}
+
+footer div {
+    padding: 0.5em 1em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /*View for tablets*/
 @media (min-width:479px) {
     .hero {
@@ -168,6 +185,11 @@ figcaption{
     
     .byline{
         font-size: 1.8em;
+    }
+
+    .text-container{
+        width: 85%;
+        margin: auto;
     }
 
     #accordion-container{
@@ -190,6 +212,11 @@ figcaption{
         background-position: -19em;
     }
 
+    footer{
+        width: 85%;
+        margin: 1em auto;
+    }
+
 }
 
 /*View for desktop*/
@@ -200,7 +227,6 @@ figcaption{
 
     .text-container{
         width: 70%;
-        margin: auto;
     }
 
     .hero{
@@ -249,9 +275,7 @@ figcaption{
         background-size: 127em;
         background-position: 0em;
         background-repeat: no-repeat;
-        /* margin-bottom: 1.5em; */
         margin: 1.5em auto;
-        width: 70%;
     }
 
     .parallax figcaption {
@@ -275,9 +299,15 @@ figcaption{
     }
 
     .beach {
-        background-size: 200em;
+        background-size: 130em;
         background-position: -20em;
-        background-position-y: -15em;
     }
 
+    footer{
+        width: 70%;
+    }
+    
+    footer div {
+        padding: 0.5em 1em;
+    }
 }
