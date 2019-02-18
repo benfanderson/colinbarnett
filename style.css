@@ -4,7 +4,7 @@
 }
 
 .container{
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Times New Roman', Times, serif;
      width: 100%;
 }
 
@@ -26,33 +26,36 @@
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Cinzel', Times, serif;
     font-size: 1.9em;
     position: absolute;
-    top: 2%;
+    top: 3%;
     width: 100%;
 }
 
 .subhead{
-    font-size: 1em;
+    font-size: 1.1em;
     position: absolute;
-    top: 8%;
+    top: 9%;
     width: 100%;
 }
 
 .byline{
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: italic;
     position: absolute;
-    top: 11%;
+    top: 13%;
     width: 100%;
 }
 
 .text-container{
+    font-size: 1.2em;
+    line-height: 1.5em;
     margin: 0 0.8em;
 }
 
-.text-container p, .picture, .quote, .parallax {
+.text-container p, .picture, .parallax, h2 {
     margin-bottom: 0.5em;
 }
 
@@ -64,12 +67,17 @@ figcaption{
     font-size: 0.8em;
 }
 
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .quote {
     font-size: 1.5em;
     border-left: 0.3em solid blue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
     padding-left: 0.5em;
-    margin: 1.75em;
+    margin: 1.2em 0;
 }
 
 #accordion-container{
@@ -170,7 +178,7 @@ footer{
 footer div {
     padding: 0.5em 1em;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*View for tablets*/
@@ -181,7 +189,7 @@ footer div {
         background-position-x: center;
     }
     h1 {
-        font-size: 4.9em;
+        font-size: 4em;
         margin-bottom: 0;
     }
 
