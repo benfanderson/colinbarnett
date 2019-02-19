@@ -41,6 +41,17 @@ h1 {
     width: 100%;
 }
 
+/*View for iPhone5 */
+@media (max-width:321px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .subhead{
+        font-size: 1em;
+    }
+}
+
 .byline{
     font-size: 1em;
     font-style: italic;
@@ -180,17 +191,6 @@ footer div {
     padding: 0.5em 1em;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-}
-
-/*View for iPhone5 */
-@media (max-width:321px) {
-    h1 {
-        font-size: 1.7em;
-    }
-
-    .subhead{
-        font-size: 1em;
-    }
 }
 
 /*View for tablets*/
