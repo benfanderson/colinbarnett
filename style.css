@@ -182,6 +182,17 @@ footer div {
     font-family: 'Roboto', sans-serif;
 }
 
+/*View for iPhone5 */
+@media (max-width:321px) {
+    h1 {
+        font-size: 1.7em;
+    }
+
+    .subhead{
+        font-size: 1em;
+    }
+}
+
 /*View for tablets*/
 @media (min-width:479px) {
     .hero {
