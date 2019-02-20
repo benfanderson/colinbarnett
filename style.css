@@ -222,7 +222,7 @@ footer div {
 
     #accordion-container{
         float: right;
-        width: 50%;
+        width: 53%;
         margin-left: 0.5em;
     }
 
@@ -258,10 +258,11 @@ footer div {
     }
 
     .hero{
-        background-size: 110em;
+        background-size: cover;
         background-position-x: center;
         background-position-y: -9em;
         height: 50em;
+        width: 100%;
         margin-bottom: 1em;
 
         /* Create the parallax scrolling effect */
@@ -274,12 +275,16 @@ footer div {
       width: 20%;
     }
 
+    h1{
+        font-size: 5em;
+    }
+
     .subhead{
-        top: 14%;
+        top: 16%;
     }
     
     .byline{
-        top: 20%;
+        top: 22%;
     }
 
     h2{
@@ -304,6 +309,7 @@ footer div {
 
     #accordion-container{
         padding: 0.1em 0.1em 0 0.1em;
+        width: 45%;
     }
 
     .accordion {
