@@ -260,7 +260,7 @@ footer div {
     .hero{
         background-size: cover;
         background-position-x: center;
-        background-position-y: -9em;
+        background-position-y: -22em;
         height: 50em;
         width: 100%;
         margin-bottom: 1em;
@@ -271,20 +271,34 @@ footer div {
         background-repeat: no-repeat;
     }
 
+    .top{
+        opacity: 1;
+        /* background-color: #aaa; */
+        /* width: 100%;
+        height: 300px; */
+    }
+
     #masthead {
-      width: 20%;
+        top: 4%;
+        width: 20%;
     }
 
     h1{
-        font-size: 5em;
+        font-size: 10em;
+        top: 40%;
+        text-shadow: 3px 3px black;
     }
 
     .subhead{
-        top: 16%;
+        font-size: 4em;
+        top: 65%;
+        text-shadow: 2px 2px black;
     }
     
     .byline{
-        top: 22%;
+        font-size: 3em;
+        top: 80%;
+        text-shadow: 2px 2px black;
     }
 
     h2{
