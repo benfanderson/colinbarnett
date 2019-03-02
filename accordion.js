@@ -14,9 +14,23 @@ function init() {
     });
   }
 
+
+  
+
   $(window).scroll(function(){
-    $(".top").css("opacity", 1 - $(window).scrollTop() / 320);
+    if (window.matchMedia("(min-width: 479px)")) {
+      $(".top").css("opacity", 1 - $(window).scrollTop() / 50);
+    } if ((window.matchMedia("(min-width: 1000px)"))) {
+      $(".top").css("opacity", 1 - $(window).scrollTop() / 100);
+    } else {
+      $(".top").css("opacity", 1 - $(window).scrollTop() / 320);
+    }
+    
   });
+
+  // $(window).scroll(function(){
+  //   $(".top").css("opacity", 1 - $(window).scrollTop() / 320);
+  // });
 
   
 }
