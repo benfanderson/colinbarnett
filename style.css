@@ -44,17 +44,6 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-/*View for iPhone5 */
-/* @media (min-width:319px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .subhead{
-        font-size: 1em;
-    }
-} */
-
 .byline{
     font-size: 1em;
     font-style: italic;
@@ -80,6 +69,7 @@ h1 {
 
 figcaption{
     font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
@@ -183,8 +173,6 @@ h2{
 .beach 
 {/* The image used */
     background-image: url("images/beach.jpg");
-
-    background-position: center;
 }
 
 footer{
@@ -317,8 +305,8 @@ footer div {
     }
 
     .picture figcaption{
-        font-size: 1em;
-        margin-top: 0.6em;
+        font-size: 0.8em;
+        margin-top: 0.4em;
     }
 
     .quote {
@@ -356,22 +344,24 @@ footer div {
 
     .troy{
         background-size: 156em;
-        background-position: -1em;
+        /* background-position: -1em; */
     }
 
     .quay{
         background-size: 171em;
-        background-position: 0em;
+        /* background-position: 0em; */
     }
 
     .queen {
         background-size: 157em; 
-        background-position: -45em;
+        background-position-x: -30em;
+        /* background-position: -45em; */
     }
 
     .beach {
         background-size: 130em;
-        background-position: -20em;
+        /* background-position: -20em; */
+        background-position: -1em;
     }
 
     footer{
