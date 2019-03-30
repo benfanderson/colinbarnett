@@ -1,6 +1,6 @@
 function init() {
     let acc = document.getElementsByClassName("accordion");
-    let activePanel;
+    let activeButton;
 
     for (i = 0; i < acc.length; i++) {
       acc[i].addEventListener("click", function() {
@@ -11,18 +11,11 @@ function init() {
         } else {
           panel.style.maxHeight = panel.scrollHeight + "px";
         } 
-        if(typeof activePanel ==="object" && typeof activePanel.nextElementSibling.style.maxHeight === "string") {
-          console.log("Boom!")
-          console.log(activePanel.nextElementSibling.style.maxHeight);
-          activePanel.classList.toggle("active");
-          let panel = activePanel.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-          } 
+        if(typeof activeButton ==="object" && activeButton != this) {
+          activeButton.classList.remove("active");
+          activeButton.nextElementSibling.style.maxHeight = null;
         };
-        activePanel = this;
+        activeButton = this;
     });
   }
 
